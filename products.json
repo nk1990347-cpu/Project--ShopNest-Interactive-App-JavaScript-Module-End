@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 2499,
+    "originalPrice": 3999,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Headphone.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 3299,
+    "originalPrice": 4999,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/SmartWatch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 1899,
+    "originalPrice": 2999,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Shoes.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Travel Backpack",
+    "category": "Clothing",
+    "price": 1599,
+    "originalPrice": 2499,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/Bag.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 1799,
+    "originalPrice": 2999,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Bluetooth Speaker.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pyhon Programming Guide",
+    "category": "Books",
+    "price": 499,
+    "originalPrice": 799,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/Pyhon Programming Guide.png"
+  },
+  {
+    "id": 7,
+    "name": "Ergonomic Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 2999,
+    "originalPrice": 4499,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Ergonomic Mechanical Keyboard.png"
+  },
+  {
+    "id": 8,
+    "name": "Casual Denim Jacket",
+    "category": "Clothing",
+    "price": 2199,
+    "originalPrice": 3499,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/Casual Denim Jacket.png"
+  },
+  {
+    "id": 9,
+    "name": "Classic Leather Sneakers",
+    "category": "Footwear",
+    "price": 2499,
+    "originalPrice": 3999,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Classic Leather Sneakers.png"
+  },
+  {
+    "id": 10,
+    "name": "Programming JavaScript Guide",
+    "category": "Books",
+    "price": 699,
+    "originalPrice": 1299,
+    "rating": "⭐⭐⭐⭐⭐",
+    "imageUrl": "./Assests/Programming JavaScript Guide.png"
+  },
+  {
+    "id": 11,
+    "name": "Wireless Gaming Mouse",
+    "category": "Electronics",
+    "price": 1299,
+    "originalPrice": 1999,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/Wireless Gaming Mouse.png"
+  },
+  {
+    "id": 12,
+    "name": "Formal Cotton Shirt",
+    "category": "Clothing",
+    "price": 999,
+    "originalPrice": 1599,
+    "rating": "⭐⭐⭐⭐☆",
+    "imageUrl": "./Assests/Formal Cotton Shirt.jpg"
+  }
+]

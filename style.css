@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #0d6efd;
+}
+
+.hero-section {
+    min-height: 550px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("https://picsum.photos/1600/800?random=20");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    width: 100%;
+}
+
+.hero-section h1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-section p {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.product-card {
+    border: none;
+    overflow: hidden;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    font-weight: bold;
+}
+
+.rating {
+    letter-spacing: 2px;
+}
+
+.price strong {
+    font-size: 1.2rem;
+}
+
+.category-card {
+    display: block;
+    padding: 35px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    color: #0d6efd;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.category-card p {
+    color: #6c757d;
+}
+
+.newsletter-section {
+    background: #f1f5ff;
+}
+
+.newsletter-section p {
+    color: #6c757d;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+    color: #adb5bd;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0d6efd;
+}
+
+
+@media (max-width: 991px) {         /* Got Doubt */
+    .hero-section {
+        min-height: 500px;
+    }
+    .hero-section h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 576px) {     /* Got Doubt [ Mobile Model ]*/
+    .hero-section {
+        min-height: 450px;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+    .hero-section .btn {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .product-card img {
+        height: 200px;
+    }
+    .category-card {
+        padding: 25px 15px;
+    }
+}
